@@ -1,0 +1,91 @@
+NETWORK
+  F Porenetworks  
+
+SAT_TARGET
+  0.00 1.0E21 0.2 500000.0 T F  1.00 -1.0E21 0.2 500000.0 T F  
+
+EQUIL_CON_ANG
+  1 50.0 60.0 -1.0 -1.0 rand 25.2  
+
+
+
+Number of pores:                           91125
+Number of throats:                         275400
+Average connection number:                 6
+Number of connections to inlet:            2025
+Number of connections to outlet:           2025
+Number of physically isolated elements:    0
+Number of singlets removed:                0
+Number of triangular shaped elements:      10
+Number of square shaped elements:          0
+Number of circular shaped elements:        366517
+Median throat length to radius ratio:      2.6756
+Net porosity:                              0.673047
+Clay bound porosity:                       0
+Absolute permeability (mD)                 2.05421e+006
+Absolute permeability (m2)                 2.02734e-009
+Formation factor:                          2.14724
+
+
+Sw =   1.00 ->  0.800;   7 steps; 54136 fillings; Pc = 3.227e+002; krw = 4.920e-001; kro = 1.136e-003
+Sw =  0.800 ->  0.600;   7 steps; 44679 fillings; Pc = 3.236e+002; krw = 1.362e-001; kro = 1.698e-003
+Sw =  0.600 ->  0.440;   2 steps; 35278 fillings; Pc = 3.257e+002; krw = 1.049e-003; kro = 1.975e-003
+
+=====================  Drainage  =====================
+Total elapsed time for drainage:         37.356
+Solving for water relative permeability: 0.260
+Solving for oil relative permeability:   0.091
+Solving for resistivity index:           0.000
+Identifying trapped elements:            31.622
+Coalesceing trapped oil:                 0.016
+Max water flowrate error:                0.000 %
+Max oil flowrate error:                  0.000 %
+Max resistivity index error:             0.000 %
+
+===================  Network State  ===================
+Maximum capillary pressure reached (Pa): 325.735
+Water saturation:                        0.440
+Number of elements invaded:              134093
+Remaining uninvaded elements:            232432
+Number of trapped water regions:         95803
+Total number of trapped water elements:  464992
+Number of trapped oil regions:           0
+Total number of trapped oil elements:    0
+
+
+Sw =  0.440 ->  0.440;   1 steps;   472 fillings; Pc = 1.525e+002; krw = 1.049e-003; kro = 1.975e-003
+
+=====================  Imbibition  =====================
+Total elapsed time for imbibition:       0.189
+Solving for water relative permeability: 0.005
+Solving for oil relative permeability:   0.017
+Solving for resistivity Index:           0.000
+Identifying trapped elements:            0.031
+Coalesceing trapped water:               0.064
+Max water flowrate error:                0.000 %
+Max oil flowrate error:                  0.000 %
+Max resistivity index error:             0.000 %
+
+=====================  Network State  =====================
+Minimum capillary pressure reached (Pa): 152.474
+Water saturation:                        0.440
+Number of elements invaded:              472
+Number of trapped water regions:         93822
+Total number of trapped water elements:  380403
+Number of trapped oil regions:           474
+Total number of trapped oil elements:    133621
+
+==================  Pore Filling Process  =================
+Uninvaded:                               90875
+Snap off:                                0
+Piston type displacement:                248
+Pore body filling, I2:                   2
+Pore body filling, I3:                   0
+Pore body filling, I4+:                  0
+
+=================  Throat Filling Process  =================
+Uninvaded:                               275178
+Snap off:                                0
+Piston type displacement:                222
+
+
